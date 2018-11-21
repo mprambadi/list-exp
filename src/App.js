@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import users from "./user";
-import { hot } from "react-hot-loader";
 import "./App.scss";
 class App extends Component {
   state = {
@@ -55,4 +54,4 @@ const UserList = ({ users, search }) => {
   );
 };
 
-export default hot(module)(App);
+export default App;
